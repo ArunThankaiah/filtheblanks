@@ -599,6 +599,8 @@ img {
 .get-in-touch-content{
   display: flex;
   gap: 3rem;
+  justify-content: center;
+  
 }
 
 .contact-col input, .contact-col textarea{
@@ -611,10 +613,18 @@ img {
 }
 .map iframe{
   width: 500px;
-  height: 400px;
+  height: 350px;
   border: none;
 }
 
+@media screen and (max-width: 921px){
+  .get-in-touch-content{
+    flex-direction: column;
+  }
+  .map iframe{
+    text-align: center;
+  }
+}
 /*=============== CONTACT ===============*/
 .contact__container{
   position:relative;
