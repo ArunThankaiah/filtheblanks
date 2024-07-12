@@ -279,12 +279,14 @@ img {
   text-align: center;
 }
 .home__title{
-  font-size:  4.9rem  ;
+  font-size:  3.9rem  ;
   font-weight: var(--font-regular);
   font-family: var(--second-font);
   line-height: 100%;
   margin-bottom: 1rem;
   text-shadow: var(--shadow-text);
+  letter-spacing: 1px;
+  padding-bottom: 2rem;
 }
 .home__meat{
   width: 40px;
@@ -445,6 +447,7 @@ img {
   scale: 1;
   
 }
+
 /*=============== CARE ===============*/
 .care{
   background-color: var(--first-color-dark);
@@ -586,6 +589,67 @@ img {
   bottom: 3rem;
   rotate: 15deg;
 }
+/* ==========Product Page============== */
+.chicken__chips{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  column-gap: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 250px; 
+  background-color: var(--first-color-dark);
+  padding:100px;
+  border-radius: 1rem;
+  box-shadow: inset var(--shadow-card);
+}
+.chiken__img{
+  display: inline-flex;
+  gap: 2rem;
+}
+.chips__1,
+.chips__2,
+.chips__3,
+.chips__4{
+  width: 200px;
+  position: absolute;
+  top: -100px;
+  transition: .5s;
+  
+}
+.chips__1,
+.chips__2,
+.chips__3,
+.chips__4:hover{
+  transform: translateY(10deg);
+}
+.chips__content{
+  margin-left: 300px;
+  
+}
+.chips__content {
+  position: absolute;
+  top: 0;
+  padding: 2rem 0;
+  
+}
+.chips__content P{
+  width: 60%;
+  padding-top: 1rem ;
+
+}
+.chips__btn{
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: var(--second-color);
+  border-radius: .25rem;
+  color: var(--second-color-dark);
+  box-shadow: inset var(--shadow-button);
+  cursor: pointer;
+}
+
 /* ===============GET IN TOUCH========= */
 .get-in-touch{
   margin-top: 100px;
