@@ -763,7 +763,7 @@ img {
   .chicken__chips {
     margin-top: 100px;
     flex-direction: column;
-    min-height: 400px;
+    min-height: 450px;
   }
 
   .chips__content {
@@ -774,7 +774,7 @@ img {
   .chips__content h3 {
     position: absolute;
     left: 22%;
-    top: 50%;
+    top: 40%;
   }
 
   .chips__content p {
@@ -783,7 +783,7 @@ img {
     position: absolute;
     margin-top: 55px;
     padding: 0 20px;
-    right: 30%;
+    left: 20%;
     padding-bottom: 20px;
 
 
@@ -792,17 +792,13 @@ img {
     position: absolute;
     bottom: 0;
     left: 22%;
-    top: 85%;
+    top: 80%;
   }
   .chips__1,
   .chips__2,
   .chips__3,
   .chips__4 {
     right: 40%;
-  }
-
-  .chips__btn {
-    position: absolute;
   }
   .chips__btn{
     position: absolute;
@@ -827,14 +823,20 @@ img {
     top: 40%;
   }
   .chips__content span{
-    top: 80%;
+    top: 83%;
+    left: 20%;
+    
+  }
+  .chips__content p{
+    left: 18%;
+  }
+  .chips__btn{
+    top: 83%;
   }
  
 }
 @media screen and (max-width: 556px){
-  .chicken__chips{
-    min-height: 600px;
-  }
+
   .chips__1,
   .chips__2,
   .chips__3,
@@ -842,11 +844,33 @@ img {
     right: 30%;
   }
   .chips__content h3{
-    top: 30%;
+    top: 40%;
   }
   .chips__content p{
     width: unset;
     left: 18%;
+    
+  }
+  .chips__content span{
+    top: 70%;
+  }
+  .chips__btn{
+    top: 70%;
+  }
+}
+@media screen and (max-width: 456px){
+  .chips__1,
+  .chips__2,
+  .chips__3,
+  .chips__4{
+    right: 25%;
+  }
+  .chips__content span{
+    top: 85%;
+  }
+  .chips__btn{
+    top: 85%;
+   
   }
 }
 
