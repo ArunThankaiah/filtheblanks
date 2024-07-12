@@ -772,7 +772,7 @@ img {
     margin-top: 50px;
   }
 
-  .chips__content h3 {
+  .chips__content h2 {
     position: absolute;
     left: 22%;
     top: 40%;
@@ -819,7 +819,7 @@ img {
   .chips__4{
     right: 35%;
   }
-  .chips__content h3{
+  .chips__content h2{
     top: 40%;
   }
   .chips__content span{
@@ -851,7 +851,7 @@ img {
   .chips__4{
     right: 30%;
   }
-  .chips__content h3{
+  .chips__content h2{
     top: 40%;
   }
   .chips__content p{
@@ -1080,17 +1080,17 @@ img {
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: .6rem;
-  background-color: hsl(170, 50%, 30%);
+  background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb {
 
-  background-color: hsl(170, 50%, 30%);
+  background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
 
-  background-color: hsl(170, 50%, 15%);
+  background-color: rgba(255, 194, 10,0.9);
 }
 
 /*=============== SCROLL UP ===============*/
@@ -1414,6 +1414,7 @@ img {
     padding: 6px;
     font-size: 1.5rem;
     border-radius: .5rem;
+    text-align: center;
   }
 
   .product__crab,
