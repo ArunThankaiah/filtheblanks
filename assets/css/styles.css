@@ -583,7 +583,153 @@ img {
   font-size: var(--small-font-size);
   font-family: var(--second-font);
 }
+/* ============Nutritional Advantages================= */
+.nutritional{
+  margin-top: 9rem;
+  text-align: center;
+  
+}
+.nutritional h2{
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.circle__container{
+  text-align: center;
+  margin-left: 300px;
+  position: relative;
+}
+.chilly_group{
+ position: absolute;
+ left: 150px;
+ top: 120px;
+}
+.n__contents{
+  position: relative;
+}
+.n_img img{
+  
+  position: absolute;
+ 
+}
+.n_img_1,
+.n_img_2,
+.n_img_3,
+.n_img_4{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 194, 10, 0.9);
+  border-radius: 50%;
+  padding: 20px;
+}
+.n_img_1{
+  bottom: 250px;
+  left: 10px;
+}
+.n_img_2{
+  bottom: 250px;
+  left: 450px;
+}
+.n_img_3{
+ bottom: 60px;
+  left: -50px;
+}
+.n_img_4{
+  bottom: 60px;
+  left: 470px;
+}
+.n_text_content_1{
+  position: absolute;
+  left: -300px;
+  bottom: 220px;
+  text-align: end;
 
+}
+.n_text_content_2{
+  position: absolute;
+  left: 560px;
+  bottom: 220px;
+  text-align: start;
+}
+.n_text_content_3{
+  position: absolute;
+  bottom: 60px;
+  left: -370px;
+  text-align: end;
+}
+.n_text_content_4{
+  position: absolute;
+  bottom: 40px;
+  left: 580px;
+  text-align: start;
+}
+.discription-content{
+  width: 300px;
+}
+.tittle_n{
+  font-size: var(--h3-font-size);
+  font-family: var(--second-font);
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1120px){
+  .circle__container{
+    width: 60%;
+   
+  }
+
+  .circle__container .center__circle{
+    width: 70%;
+  }
+  .chilly_group{
+    
+    left: 120px;
+    top: 90px;
+   }
+  .n_img_1{
+    bottom: 200px;
+    left: 10px;
+  }
+  .n_img_2{
+    bottom: 190px;
+    left: 350px;
+  }
+  .n_img_3{
+   bottom: 30px;
+    left: -50px;
+  }
+  .n_img_4{
+    bottom: 30px;
+    left: 370px;
+  }
+  .n_text_content_1{
+    position: absolute;
+    left: -250px;
+    bottom: 190px;
+    
+  
+  }
+  .n_text_content_2{
+    position: absolute;
+    left: 460px;
+    bottom: 190px;
+    
+  }
+  .n_text_content_3{
+    position: absolute;
+    bottom: 30px;
+    left: -370px;
+   
+  }
+  .n_text_content_4{
+    
+    bottom: 5px;
+    left: 480px;
+    
+  }
+  .discription-content{
+    width: 250px;
+  }
+}
 /* ===========Why Choose=========== */
 .why__choose {
   margin-top: 6rem;
@@ -664,7 +810,7 @@ img {
 }
 
 .why__content__tittle {
-  font-family: var(--second-font);
+  font-family: var(--body-font);
   font-size: var(--h3-font-size);
   padding-bottom: 1rem;
 }
@@ -816,6 +962,9 @@ img {
 }
 
 /* ==========Product Page============== */
+.product__section{
+  margin-top: 200px;
+}
 .chicken__chips {
   display: flex;
   justify-content: space-between;
@@ -874,6 +1023,11 @@ img {
   font-family: var(--second-font);
   letter-spacing: 0.2px;
 
+}
+.subtittle__product__page{
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .chips__content P {
