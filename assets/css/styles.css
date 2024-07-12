@@ -810,11 +810,43 @@ img {
     right: 10%;
 
   }
+  
 
 }
 @media screen and (max-width: 776px){
+  .chicken__chips{
+    min-height: 500px;
+  }
+  .chips__1,
+  .chips__2,
+  .chips__3,
+  .chips__4{
+    right: 35%;
+  }
+  .chips__content h3{
+    top: 40%;
+  }
   .chips__content span{
-    top: 90%;
+    top: 80%;
+  }
+ 
+}
+@media screen and (max-width: 556px){
+  .chicken__chips{
+    min-height: 600px;
+  }
+  .chips__1,
+  .chips__2,
+  .chips__3,
+  .chips__4{
+    right: 30%;
+  }
+  .chips__content h3{
+    top: 30%;
+  }
+  .chips__content p{
+    width: unset;
+    left: 18%;
   }
 }
 
