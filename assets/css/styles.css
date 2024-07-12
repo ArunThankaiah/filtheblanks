@@ -584,6 +584,144 @@ img {
   font-family: var(--second-font);
 }
 
+/* ===========Why Choose=========== */
+.why__choose {
+  margin-top: 6rem;
+}
+
+.why__choose__description {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.why__data {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.tomato__1,
+.tomato__2 {
+  width: 72px;
+  position: absolute;
+  opacity: 0.5;
+
+}
+
+.tomato__1 {
+  right: 6rem;
+  bottom: 9rem;
+  rotate: -20deg;
+
+}
+
+.tomato__2 {
+  left: 5rem;
+  top: 9rem;
+}
+
+.why__choose__contents {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+
+}
+
+.why__choose__box {
+  border-radius: 4rem;
+  box-shadow: inset var(--shadow-button);
+  padding: 6rem 2rem;
+  text-align: center;
+  transition: 0.5s;
+
+}
+
+.why__choose__box:hover {
+  transform: scale(1.1);
+}
+
+.why__icon {
+  padding-bottom: 2rem;
+
+
+
+}
+
+.why__icon i {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 194, 10, 0.9);
+  text-align: center;
+  border-radius: 50%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+
+
+}
+
+.why__content__tittle {
+  font-family: var(--second-font);
+  font-size: var(--h3-font-size);
+  padding-bottom: 1rem;
+}
+
+.why__choose__disc {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 980px) {
+  .why__choose__contents {
+    flex-direction: column;
+  }
+
+  .why__choose__disc {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .tomato__1,
+  .tomato__2 {
+    width: 44px;
+    position: absolute;
+    opacity: 0.5;
+
+  }
+  .tomato__1{
+    right: 4rem;
+   
+  }
+  .tomato__2{
+    left: 3rem;
+  }
+}
+@media screen and (max-width: 480px){
+  .tomato__1{
+    right: 2rem;
+   
+  }
+  .tomato__2{
+    left: 2rem;
+  }
+}
+@media screen and (max-width: 380px){
+  .tomato__1{
+    right: 1rem;
+    bottom: 4rem;
+  }
+  .tomato__2{
+    left: 50px;
+    bottom: 50px;
+    
+  }
+}
 /*=============== PRODUCTS ===============*/
 .products__container {
   position: relative;
@@ -789,113 +927,135 @@ img {
 
 
   }
-  .chips__content span{
+
+  .chips__content span {
     position: absolute;
     bottom: 0;
     left: 22%;
     top: 80%;
   }
+
   .chips__1,
   .chips__2,
   .chips__3,
   .chips__4 {
     right: 40%;
   }
-  .chips__btn{
+
+  .chips__btn {
     position: absolute;
     top: 80%;
     right: 10%;
-    
+
 
   }
-  
+
 
 }
-@media screen and (max-width: 776px){
+
+@media screen and (max-width: 776px) {
 
   .chips__1,
   .chips__2,
   .chips__3,
-  .chips__4{
+  .chips__4 {
     right: 35%;
   }
-  .chips__content h2{
+
+  .chips__content h2 {
     top: 40%;
   }
-  .chips__content span{
+
+  .chips__content span {
     top: 83%;
     left: 20%;
-    
+
   }
-  .chips__content p{
+
+  .chips__content p {
     left: 18%;
   }
-  .chips__btn{
+
+  .chips__btn {
     top: 83%;
   }
- 
+
 }
-@media screen and (max-width: 666px){
-  .chips__content span{
+
+@media screen and (max-width: 666px) {
+  .chips__content span {
     top: 86%;
   }
-  .chips__btn{
+
+  .chips__btn {
     top: 86%;
   }
 }
-@media screen and (max-width: 585px){
+
+@media screen and (max-width: 585px) {
 
   .chips__1,
   .chips__2,
   .chips__3,
-  .chips__4{
+  .chips__4 {
     right: 30%;
   }
-  .chips__content h2{
+
+  .chips__content h2 {
     top: 40%;
   }
-  .chips__content p{
+
+  .chips__content p {
     width: 80%;
     left: 18%;
-    
+
   }
-  .chips__content span{
+
+  .chips__content span {
     top: 80%;
   }
-  .chips__btn{
+
+  .chips__btn {
     top: 80%;
   }
 }
-@media screen and (max-width: 456px){
+
+@media screen and (max-width: 456px) {
+
   .chips__1,
   .chips__2,
   .chips__3,
-  .chips__4{
+  .chips__4 {
     right: 25%;
   }
-  .chips__content span{
+
+  .chips__content span {
     top: 85%;
   }
-  .chips__btn{
+
+  .chips__btn {
     top: 85%;
-   
+
   }
 }
-@media screen and (max-width: 376px){
+
+@media screen and (max-width: 376px) {
   .chicken__chips {
-   
+
     min-height: 520px;
   }
+
   .chips__1,
   .chips__2,
   .chips__3,
-  .chips__4{
+  .chips__4 {
     right: 20%;
   }
-  .chips__content p{
-   
+
+  .chips__content p {
+
     left: 15%;
-    
+
   }
 }
 
@@ -1090,7 +1250,7 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
 
-  background-color: rgba(255, 194, 10,0.9);
+  background-color: rgba(255, 194, 10, 0.9);
 }
 
 /*=============== SCROLL UP ===============*/
