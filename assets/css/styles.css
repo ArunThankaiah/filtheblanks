@@ -810,9 +810,7 @@ img {
 
 }
 @media screen and (max-width: 776px){
-  .chicken__chips{
-    min-height: 500px;
-  }
+
   .chips__1,
   .chips__2,
   .chips__3,
@@ -847,7 +845,7 @@ img {
     top: 40%;
   }
   .chips__content p{
-    width: unset;
+    width: 80%;
     left: 18%;
     
   }
@@ -871,6 +869,23 @@ img {
   .chips__btn{
     top: 85%;
    
+  }
+}
+@media screen and (max-width: 376px){
+  .chicken__chips {
+   
+    min-height: 520px;
+  }
+  .chips__1,
+  .chips__2,
+  .chips__3,
+  .chips__4{
+    right: 20%;
+  }
+  .chips__content p{
+   
+    left: 15%;
+    
   }
 }
 
