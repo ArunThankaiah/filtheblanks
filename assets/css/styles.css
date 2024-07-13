@@ -890,6 +890,9 @@ img {
   gap: 10px; 
   
  }
+ .n__contents{
+  flex-direction: column;
+ }
 }
 @media screen and (max-width:600px){
   .circle__container{
