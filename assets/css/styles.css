@@ -955,10 +955,6 @@ img {
 
 }
 
-.why__choose__box:hover {
-  transform: scale(1.1);
-}
-
 .why__icon {
   padding-bottom: 2rem;
 
@@ -1399,9 +1395,21 @@ img {
   box-shadow: unset;
 
 }
+.get__in__touch__title{
+  font-weight: var(--font-regular);
+  font-family: var(--second-font);
+  font-size: var(--h1-font-size);
+  text-align: center;
+  text-shadow: var(--shadow-text);
+}
 
-.get-tittle {
-  padding-bottom: 2rem;
+
+.get-in-touch-desc{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 3rem;
+  text-align: center;
+
 }
 
 .get-in-touch-content {
