@@ -583,153 +583,320 @@ img {
   font-size: var(--small-font-size);
   font-family: var(--second-font);
 }
+
 /* ============Nutritional Advantages================= */
-.nutritional{
+.nutritional {
   margin-top: 9rem;
   text-align: center;
-  
+
 }
-.nutritional h2{
+
+.nutritional h2 {
   text-transform: uppercase;
   padding-bottom: 2rem;
 }
-.circle__container{
+
+.circle__container {
   text-align: center;
   margin-left: 300px;
   position: relative;
 }
-.chilly_group{
- position: absolute;
- left: 150px;
- top: 120px;
+
+.chilly_group {
+  position: absolute;
+  left: 150px;
+  top: 120px;
 }
-.n__contents{
+
+.n__contents {
   position: relative;
 }
-.n_img img{
-  
+
+.n_img img {
+
   position: absolute;
- 
+
 }
+
 .n_img_1,
 .n_img_2,
 .n_img_3,
-.n_img_4{
+.n_img_4 {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 194, 10, 0.9);
   border-radius: 50%;
   padding: 20px;
 }
-.n_img_1{
+
+.n_img_1 {
   bottom: 250px;
   left: 10px;
 }
-.n_img_2{
+
+.n_img_2 {
   bottom: 250px;
   left: 450px;
 }
-.n_img_3{
- bottom: 60px;
+
+.n_img_3 {
+  bottom: 60px;
   left: -50px;
 }
-.n_img_4{
+
+.n_img_4 {
   bottom: 60px;
   left: 470px;
 }
-.n_text_content_1{
+
+.n_text_content_1 {
   position: absolute;
   left: -300px;
   bottom: 220px;
   text-align: end;
 
 }
-.n_text_content_2{
+
+.n_text_content_2 {
   position: absolute;
   left: 560px;
   bottom: 220px;
   text-align: start;
 }
-.n_text_content_3{
+
+.n_text_content_3 {
   position: absolute;
   bottom: 60px;
   left: -370px;
   text-align: end;
 }
-.n_text_content_4{
+
+.n_text_content_4 {
   position: absolute;
   bottom: 40px;
   left: 580px;
   text-align: start;
 }
-.discription-content{
+
+.discription-content {
   width: 300px;
 }
-.tittle_n{
+
+.tittle_n {
   font-size: var(--h3-font-size);
   font-family: var(--second-font);
   padding-bottom: 10px;
 }
 
-@media screen and (max-width: 1120px){
-  .circle__container{
+@media screen and (max-width: 1120px) {
+  .circle__container {
     width: 60%;
-   
+
   }
 
-  .circle__container .center__circle{
+  .circle__container .center__circle {
     width: 70%;
   }
-  .chilly_group{
-    
+
+  .chilly_group {
+
     left: 120px;
     top: 90px;
-   }
-  .n_img_1{
+  }
+
+  .n_img_1 {
     bottom: 200px;
     left: 10px;
   }
-  .n_img_2{
+
+  .n_img_2 {
     bottom: 190px;
     left: 350px;
   }
-  .n_img_3{
-   bottom: 30px;
+
+  .n_img_3 {
+    bottom: 30px;
     left: -50px;
   }
-  .n_img_4{
+
+  .n_img_4 {
     bottom: 30px;
     left: 370px;
   }
-  .n_text_content_1{
+
+  .n_text_content_1 {
     position: absolute;
     left: -250px;
     bottom: 190px;
-    
-  
+
+
   }
-  .n_text_content_2{
+
+  .n_text_content_2 {
     position: absolute;
     left: 460px;
     bottom: 190px;
-    
+
   }
-  .n_text_content_3{
+
+  .n_text_content_3 {
     position: absolute;
-    bottom: 30px;
-    left: -370px;
-   
+    bottom: 0px;
+    left: -310px;
+
   }
-  .n_text_content_4{
-    
+
+  .n_text_content_4 {
+
     bottom: 5px;
     left: 480px;
-    
+
   }
-  .discription-content{
+
+  .discription-content {
     width: 250px;
   }
 }
+
+@media screen and (max-width: 1030px) {
+  .circle__container {
+    width: 60%;
+    margin-left: 270px;
+
+  }
+
+  .chilly_group {
+    width: 30%;
+    margin-left: -20px;
+
+  }
+
+  .discription-content {
+    width: 200px;
+    font-size: 13px;
+  }
+
+  .n_text_content_1 {
+    left: -200px;
+  }
+
+  .n_text_content_3 {
+    left: -265px;
+
+  }
+
+  .n_text_content_4 {
+
+    bottom: 5px;
+    left: 480px;
+
+  }
+
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .n_img_1,
+  .n_img_2,
+  .n_img_3,
+  .n_img_4 {
+    width: 80px;
+    height: 80px;
+
+  }
+
+  .circle__container {
+    
+    margin-left: 270px;
+
+  }
+
+  .chilly_group {
+    width: 30%;
+    margin-left: -20px;
+
+  }
+
+  .n_img_2 {
+    left: 300px;
+  }
+
+  .n_img_4 {
+    bottom: 30px;
+    left: 330px;
+  }
+  .n_text_content_1{
+    top: -260px;
+  }
+  .n_text_content_2 {
+    left: 390px;
+    top: -250px;
+  }
+
+  .n_text_content_4 {
+    left: 420px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .circle__container {
+    margin-left: 240px;
+  }
+  .n_img_2{
+    left: 250px;
+    bottom: 190px;
+  }
+  .n_text_content_2{
+    left: 340px;
+  }
+  .n_img_4{
+    left: 300px;
+  }
+  .n_text_content_4{
+    left: 390px;
+  }
+ 
+}
+@media screen and (max-width:800px){
+  .chilly_group {
+    display: none;
+  }
+  .center__circle{
+    display: none;
+  }
+  .n_img img {
+    position: unset;
+  }
+  .n_text_content_1,
+  .n_text_content_2,
+  .n_text_content_3,
+  .n_text_content_4{
+    position: unset;
+    text-align: start;
+    padding-bottom: 20px;
+  }
+  .n__contents{
+    display: flex;
+    gap: 10px;
+   
+  }
+ .circle__container{
+  margin-left: unset;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  
+ }
+}
+@media screen and (max-width:600px){
+  .circle__container{
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
+
 /* ===========Why Choose=========== */
 .why__choose {
   margin-top: 6rem;
@@ -840,34 +1007,41 @@ img {
     opacity: 0.5;
 
   }
-  .tomato__1{
+
+  .tomato__1 {
     right: 4rem;
-   
+
   }
-  .tomato__2{
+
+  .tomato__2 {
     left: 3rem;
   }
 }
-@media screen and (max-width: 480px){
-  .tomato__1{
+
+@media screen and (max-width: 480px) {
+  .tomato__1 {
     right: 2rem;
-   
+
   }
-  .tomato__2{
+
+  .tomato__2 {
     left: 2rem;
   }
 }
-@media screen and (max-width: 380px){
-  .tomato__1{
+
+@media screen and (max-width: 380px) {
+  .tomato__1 {
     right: 1rem;
     bottom: 4rem;
   }
-  .tomato__2{
+
+  .tomato__2 {
     left: 50px;
     bottom: 50px;
-    
+
   }
 }
+
 /*=============== PRODUCTS ===============*/
 .products__container {
   position: relative;
@@ -962,9 +1136,10 @@ img {
 }
 
 /* ==========Product Page============== */
-.product__section{
+.product__section {
   margin-top: 200px;
 }
+
 .chicken__chips {
   display: flex;
   justify-content: space-between;
@@ -1024,7 +1199,8 @@ img {
   letter-spacing: 0.2px;
 
 }
-.subtittle__product__page{
+
+.subtittle__product__page {
   width: 80%;
   margin: auto;
   text-align: center;
