@@ -1041,6 +1041,32 @@ img {
   }
 }
 
+/*=========our value========== */
+.our__value{
+  margin-top: 6rem;
+  
+}
+.our__value__content{
+  border-radius: 4rem;
+  box-shadow: inset var(--shadow-button);
+  padding: 6rem 2rem;
+  transition: 0.5s;
+}
+.our_value_text_box{
+  width: 80%;
+  margin: auto;
+  
+}
+.our__value__content_box{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.our__value__icon{
+  font-size: 2rem;
+  color: rgba(255, 194, 10, 0.9);
+}
+
 /*=============== PRODUCTS ===============*/
 .products__container {
   position: relative;
