@@ -1069,6 +1069,7 @@ img {
   .our__mission__main__content{
     flex-direction: column;
     row-gap: 20px;
+    text-align: center;
   }
   .our__mission_img .picture__1{
     width: unset;
