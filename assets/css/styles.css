@@ -1040,7 +1040,41 @@ img {
 
   }
 }
+/* ==============OUR MISSION============= */
+.our__mission{
+  margin-top: 6rem;
+}
+.our__mission__main__content{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.our__mission__sub_tittle{
+  width: 500px;
+  padding: 10px 0;
+  text-align: start;
+  padding-right: 3rem;
 
+}
+.our__mission_img .picture__1{
+  width: 100%;
+  display: block;
+  
+}
+@media screen and (max-width: 776px){
+  .our__mission__main__content{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .our__mission_img .picture__1{
+    width: unset;
+    
+  }
+}
 /*=========our value========== */
 .our__value{
   margin-top: 6rem;
@@ -1065,6 +1099,11 @@ img {
 .our__value__icon{
   font-size: 2rem;
   color: rgba(255, 194, 10, 0.9);
+}
+@media screen and (max-width: 556px){
+  .our__mission__main__content{
+    grid-template-columns: repeat(auto, 1fr);
+  }
 }
 
 /*=============== PRODUCTS ===============*/
