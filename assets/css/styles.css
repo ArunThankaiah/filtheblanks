@@ -1075,6 +1075,9 @@ img {
     width: unset;
     
   }
+  .our__mission__sub_tittle{
+    text-align: center;
+  }
 }
 /*=========our value========== */
 .our__value{
