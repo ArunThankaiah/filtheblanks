@@ -1041,44 +1041,34 @@ img {
   }
 }
 /* ==============OUR MISSION============= */
-.our__mission{
-  margin-top: 6rem;
-}
-.our__mission__main__content{
-  width: 80%;
-  margin: auto;
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-between;
-  
-}
-.our__mission__sub_tittle{
-  width: 500px;
-  padding: 10px 0;
-  text-align: start;
-  padding-right: 3rem;
-
-}
-.our__mission_img .picture__1{
-  width: 100%;
-  display: block;
-  
-}
-@media screen and (max-width: 776px){
-  .our__mission__main__content{
-    flex-direction: column;
-    row-gap: 20px;
-    text-align: center;
+  #mission{
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
-  .our__mission_img .picture__1{
-    width: unset;
-    
+  .mission__main{
+    display: flex;
+    justify-content: space-between;
   }
-  .our__mission__sub_tittle{
-    text-align: center;
+  .mission__content{
+    flex-basis: 48%;
+    padding: 30px 2px;
   }
-}
+  .our__strory{
+    width: 100%;
+  }
+  .sub__title__our__story{
+    font-size: var(--h2-font-size);
+    font-family: var(--second-font);
+  }
+  .mission p{
+    padding: 15px 0 25px;
+  }
+  @media screen and (max-width: 776px) {
+    .mission__main{
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 /*=========our value========== */
 .our__value{
   margin-top: 6rem;
