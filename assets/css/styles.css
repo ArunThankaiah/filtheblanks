@@ -79,7 +79,7 @@ body {
 }
 .whats_app_icon{
   color: #25d366;
-  font-size: 45px;
+  font-size: 35px;
   background-color: var(--first-color-dark);
   /* color: var(--white-color); */
   box-shadow: inset var(--shadow-button);
@@ -607,15 +607,18 @@ img {
   display: flex;
   align-items: center;
   column-gap: .5rem;
+  
 }
 
 .banner__item i {
   font-size: 1.5rem;
+  
 }
 
 .banner__item span {
   font-size: var(--small-font-size);
   font-family: var(--second-font);
+  text-transform: uppercase;
 }
 
 /* ============Nutritional Advantages================= */
