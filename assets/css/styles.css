@@ -201,6 +201,11 @@ img {
   display: grid;
   gap: 1.5rem;
 }
+section#home {
+  background: #fff;
+  position: relative;
+  z-index:9;
+}
 
 .section {
   padding-block: 5rem 1rem;
@@ -1973,7 +1978,7 @@ img {
   }
 
   .products__content {
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(4, 250px);
     gap: 10rem 4rem;
   }
 
