@@ -96,6 +96,14 @@ body {
   text-align: center;
   
 }
+@media screen and (max-width: 556px){
+  .whats_app{
+    right: 10px;
+  }
+  .whats_app_icon{
+    font-size: 25px;
+  }
+}
 
 /* ========PRELOADER========= */
 .preloader1 {
