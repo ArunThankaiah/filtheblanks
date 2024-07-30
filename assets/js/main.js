@@ -52,6 +52,14 @@ const scrollUp = ()=>{
                         : scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+/*=============== WHATS APP ===============*/ 
+const whatsApp = ()=>{
+    const whatsApp = document.getElementById('whats_app')
+
+    this.whatsY >= 350 ? whatsApp.classList.add('whats_app')
+                        : whatsApp.classList.remove('whats_app')
+}
+window.addEventListener('whats', whatsApp)
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 
